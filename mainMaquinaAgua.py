@@ -1,5 +1,7 @@
-import MaquinaAgua
+import MaquinaAgua as MA
 
-x = MaquinaAgua()
-x.set_quant200(10)
-print(x.get_quant200)
+maq = MA.MaquinaAgua()
+
+print(maq.quant_agua)
+maq.abastecerAgua()
+#print
