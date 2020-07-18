@@ -1,4 +1,4 @@
-class Parrot: 
+""" class Parrot: 
  
     # class atribute
     species = "bird"
@@ -41,4 +41,39 @@ class Bird:
     def swim(self):
         print("Swim faster")
         
+class Peguin(Bird):
+
+    def __init__(self):
+        super().__init__()
+        print("Peguin is ready")
+    
+    def whoisThis(self):   # child class modifies the behavior of the parent class
+        print("Peguin")
+
+    def run(self):         # child class extends the behavior of the parent class
+        print("Run faster")
+
+peggy = Peguin() 
+peggy.whoisThis()
+peggy.swim()        
+peggy.run()        
+
+ """
+
+class Parrot():
+    def fly(self):
+        print("Parrot can fly")
+
+    def fly(self):
+        print("Parrot can't fly")
         
+class Peguin():
+    def fly(self):
+        print("Peguin can't fly")
+
+    def fly(self):
+        print("Parrot can fly")
+
+
+def flying_test(bird):
+    bird.fly()
