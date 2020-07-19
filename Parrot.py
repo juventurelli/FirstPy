@@ -41,19 +41,19 @@ class Bird:
     def swim(self):
         print("Swim faster")
         
-class Peguin(Bird):
+class Penguin(Bird):
 
     def __init__(self):
         super().__init__()
-        print("Peguin is ready")
+        print("Penguin is ready")
     
     def whoisThis(self):   # child class modifies the behavior of the parent class
-        print("Peguin")
+        print("Penguin")
 
     def run(self):         # child class extends the behavior of the parent class
         print("Run faster")
 
-peggy = Peguin() 
+peggy = Penguin() 
 peggy.whoisThis()
 peggy.swim()        
 peggy.run()        
@@ -67,7 +67,7 @@ class Parrot():
     def fly(self):
         print("Parrot can't fly")
         
-class Peguin():
+class Penguin():
     def fly(self):
         print("Peguin can't fly")
 
@@ -77,3 +77,10 @@ class Peguin():
 
 def flying_test(bird):
     bird.fly()
+
+ #instantiate objects
+blu = Parrot()
+peggy = Penguin()
+
+flying_test(blu)
+flying_test(peggy)
