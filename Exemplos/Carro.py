@@ -396,33 +396,33 @@
 # triangulo.inputSides()
 # triangulo.dispSides()
 
-# class Point:
-#     def __init__(self, x = 0, y = 0):
-#         self.x = x
-#         self.y = y
-#                                                   ## overload the print method
-#     def __str__(self):                            ## controls how the object gets printed
-#         return "({0},{1})".format(self.x,self.y)  ## definindo como o print vai funcionar
+class Point:
+    def __init__(self, x = 0, y = 0):
+        self.x = x
+        self.y = y
+                                                  ## overload the print method
+    def __str__(self):                            ## controls how the object gets printed
+        return "({0},{1})".format(self.x,self.y)  ## definindo como o print vai funcionar
 
-#     def __add__(self, other):
-#             x = self.x + other.x
-#             y = self.y + other.y
-#             return Point(x, y)
+    def __add__(self, other):
+            x = self.x + other.x
+            y = self.y + other.y
+            return Point(x, y)
 
-# p1 = Point(1, 2)
-# p2 = Point(2, 3)
+p1 = Point(1, 2)
+p2 = Point(2, 3)
 
-# print(p1+p2)
+print(p1+p2)
 
-my_list = [4, 7, 0, 3]
+# my_list = [4, 7, 0, 3]
 
-# get an iterator using iter()
-my_iter = iter(my_list)
+# # get an iterator using iter()
+# my_iter = iter(my_list)
 
-# iterate through it using next()
+# # iterate through it using next()
 
-# Output: 4
-print(next(my_iter))
+# # Output: 4
+# print(next(my_iter))
 
-# Output: 7
-print(next(my_iter))
+# # Output: 7
+# print(next(my_iter))
