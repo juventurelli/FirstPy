@@ -3,7 +3,7 @@ from Fraction import Fraction
 def main():
     
   # Caminho Feliz
-  # f1 = Fraction(1, 5)
+  f1 = Fraction(1, 5)
   
   
   # print(f1.numerador) # 1

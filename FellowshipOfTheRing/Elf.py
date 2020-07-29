@@ -1,0 +1,2 @@
+class Elf(Person):
+    pass

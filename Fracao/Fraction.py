@@ -1,12 +1,12 @@
 class Fraction:
     
     def __init__(self,numerador=0, denominador=1):
-        if(numerador>=0):
+        if(numerador<0 or denominador<=0):
+            del self
+            raise Exception("You should try better")
+        else:
             self.numerador        = numerador
-        if(denominador>0):
             self.denominador      = denominador    
-        else: 
-            print("whatever")
 
     def mais(self,numerador,denominador):
         if(self.denominador == denominador):

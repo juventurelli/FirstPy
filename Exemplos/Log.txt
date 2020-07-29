@@ -1,0 +1,38 @@
+Account created
+Account created
+Account created
+Account created
+Account created
+Account created
+Balance checked at 0
+Account created
+Balance checked at 0
+New balance is20
+Account created
+Balance checked at 0
+New balance is20
+Balance checked at 20
+Account createdJuju
+Balance checked at 0Juju
+New balance is20
+Balance checked at 20Juju
+Account created Juju
+Balance checked at 0Juju
+New balance is of Juju 20
+Balance checked at 20Juju
+Account created Juju
+Balance checked at 0Juju
+Account created Juju
+Balance checked at 0Juju
+Account created Juju
+Balance checked at 0Juju
+Account created Juju
+Balance checked at 0Juju
+New balance of Juju is 20
+Balance checked at 20Juju
+Account created Juju
+Balance checked at 0Juju
+New balance of Juju is 20
+Balance checked at 20Juju
+Whithdraw of Juju: 100
+Balance checked at -80Juju
