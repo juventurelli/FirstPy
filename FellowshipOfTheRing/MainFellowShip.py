@@ -1,34 +1,40 @@
 
-from Person import Person
-from Fellowship import Fellowship
+from Person import *
+# from Fellowship import Fellowship
 
 
 		# Initializing People
-		Gandalf =  Wizard("Gandalf")
-		# Aragorn =  Human("Aragorn")
-		# Gimli =  Dwarf("Gimli")
-		# Legolas =  Elf("Legolas")
-		# Boromir =  Human("Boromir")
-		# Frodo =  Hobbit("Frodo")
-		# Sam =  Hobbit("Sam")
-		# Meriadoc =  Hobbit("Meriadoc")
-		# Peregrin =  Hobbit("Peregrin")
+Gandalf  =  Wizzard("Gandalf")
+print(Gandalf.get_name())
+
+
+# Aragorn  =  Human("Aragorn")
+# Aragorn.get_name()
+# Gimli    =  Dwarf("Gimli")
+# Legolas  =  Elf("Legolas")
+# Boromir  =  Human("Boromir")
+# Frodo    =  Hobbit("Frodo")
+# Sam      =  Hobbit("Sam")
+# Meriadoc =  Hobbit("Meriadoc")
+# Peregrin =  Hobbit("Peregrin")
 
 # 		// Initializing Fellowships
-# 		Fellowship FellowshipOfTheRing =  Fellowship("of The Ring")
-# 		Fellowship EvilFellowship =  Fellowship("of Evil")
+FellowshipOfTheRing =  Fellowship("of The Ring")
+EvilFellowship =  Fellowship("of Evil")
 
 # 		// 0.3pts -> Every person has a name
-# 		System.out.println(Gandalf.name().equals("Gandalf"))
-# 		System.out.println(Gandalf.toString().equals("Gandalf"))
+#print(Gandalf.equals("Gandalf"))
+# System.out.println(Gandalf.name().equals("Gandalf"));
+#print(Gandalf.toString().equals("Gandalf"))
+#print(Gandalf.toString())
 
 # 		// 0.3pts -> There is no members yet
 # 		System.out.println(FellowshipOfTheRing.toString().equals("Fellowship of The Ring"))
 # 		System.out.println(EvilFellowship.toString().equals("Fellowship of Evil"))
-# 		System.out.println(EvilFellowship.count() == 0)
-# 		System.out.println(FellowshipOfTheRing.count() == 0)
-# 		System.out.println(FellowshipOfTheRing.hasNoMembers() == true)
-# 		System.out.println(FellowshipOfTheRing.hasMembers() == false)
+print(EvilFellowship.count() == 0)
+print(FellowshipOfTheRing.count() == 0)
+print(FellowshipOfTheRing.hasNoMembers())
+print(FellowshipOfTheRing.hasMembers())
 
 # 		// 0.3pts -> Members count from 1 (not 0)
 # 		System.out.println(FellowshipOfTheRing.member(1) == null)
@@ -159,3 +165,9 @@ from Fellowship import Fellowship
 # 		System.out.println(FellowshipOfTheRing.lastMember() == null)
 # 	}
 # }
+# x = input("Done ") 
+
+# if __name__ == "__main__":
+
+#   print('Terminal execution!')
+#   main()

@@ -127,7 +127,9 @@ def main():
   print(maq.copos_200() == 80)
   print(maq.copos_300() == 97)
 
-  input("Funny you")  
+  x = input("Funny you ")  
+
+  print(x)
 
 if __name__ == "__main__":
 #   print('Terminal execution!')
