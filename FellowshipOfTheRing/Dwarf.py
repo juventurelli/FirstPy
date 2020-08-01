@@ -1,11 +1,4 @@
-package fellowship
-
 class Dwarf(Person):
-
-	def Dwarf(name)
-		super(name)
-	
-
-	def breed():
-		return "Dwarf"
+    def __init__(self,name):
+        super().__init__(name)
 	
