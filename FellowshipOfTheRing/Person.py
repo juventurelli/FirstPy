@@ -1,53 +1,54 @@
 
 class Person():
 
-    def __init__(self, name):
-        self.name = name
-        print("{} created".format(self.name))
+    def __init__(self, nom):
+        self.nom = nom
+        print("{} created".format(self.nom))
     
-    def get_name(self):
-        return(self.name)
+    def name(self):
+        return(self.nom)
 
-    # def equals(self,name):
-    #     return(self.name == name)
-
-    # def toString(self):
-    #     return(str(self.name))    
+    def toString(self):
+        return(str(self.nom))    
 
     def fellowship(self):
         return()
 
 class Wizzard(Person):
-    def __init__(self,name):
-        super().__init__(name)
+    def __init__(self,nom):
+        super().__init__(nom)
 
 class Human(Person):
-    def __init__(self,name):
-        super().__init__(name)
+    def __init__(self,nom):
+        super().__init__(nom)
 
 class Elf(Person):
-    def __init__(self,name):
-        super().__init__(name)
+    def __init__(self,nom):
+        super().__init__(nom)
 
 class Hobbit(Person):
-    def __init__(self,name):
-        super().__init__(name)
+    def __init__(self,nom):
+        super().__init__(nom)
 
 class Dwarf(Person):
-    def __init__(self,name):
-        super().__init__(name)      
+    def __init__(self,nom):
+        super().__init__(nom)      
 
 
 
-class Fellowship(Person):
+from Member import Member
+class Fellowship():
     
-    def __init__(self, name):
-        self.name= name
+    def __init__(self, nom):
+        self.nom= nom
         self.members = []
-        print("Fellowship {} created".format(self.name))
+        print("Fellowship {} created".format(self.nom))
 
-    def signUp(self,name):
-        self.members.append(name)
+    def toString(self):
+        return("Fellowship " + self.nom)    
+
+    def signUp(self,nom):
+        self.members.append(nom)
     
     def count(self):
          return len(self.members)
@@ -58,16 +59,6 @@ class Fellowship(Person):
     def hasMembers(self):
         return len(self.members) != 0 
 
-    def member(self, number):
-        if len(self.members)>0:
-            return(self.members[number-1])
-        else:
-            return None    
-
-    def lastMember(self):    
-        if len(self.members)>0:
-            return(self.members[len(self.members)])
-        else:
-            return None     
+         
 
 

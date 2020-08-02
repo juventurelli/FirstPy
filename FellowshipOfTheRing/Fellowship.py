@@ -1,4 +1,6 @@
-class Fellowship(Person):
+from Member import Member
+
+class Fellowship():
     
     def __init__(self, name):
         self.name= name
@@ -20,14 +22,4 @@ class Fellowship(Person):
     def fellowship(self):
         return(self.__name__)
 
-    def member(self, number):
-        if len(self.members)>0:
-            return(self.members[number-1])
-        else:
-            return None    
-
-    def lastMember(self):    
-        if len(self.members)>0:
-            return(self.members[len(self.members)])
-        else:
-            return None     
+  
